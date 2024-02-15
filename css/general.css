@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    /* font-size: 10px; */
+    /* 10px / 16px=0.625 = 62.5% */
+    /* Percentage of users browser font-size settings */
+    font-size: 62.5%;
+    /* overflow-x: hidden; */
+    /* dows not works on safari */
+    /* scroll-behavior: smooth; */
+
+}
+body{
+    font-family: "Rubik",sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+    /* only works if there is nothing absolutely positioned in the relation to the body  */
+    
+    overflow-x: hidden;
+    
+}
+
+
+
+
+.heading-primary{
+    color:#fff;
+    font-size: 4.8rem;
+    line-height: 1.05;
+    margin-bottom:4.8rem;
+}
+.heading-secondary{
+    font-size: 4.4rem;
+    line-height: 1.2;
+    margin-bottom: 9.6rem;
+
+}
+.heading-tertiary{
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;  
+}
+
+
+.container{
+    /* 1140px */
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+}
